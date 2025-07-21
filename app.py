@@ -13,4 +13,4 @@ if st.button("Continue"):
     if "Practice" in mode:
         switch_page("1_Patient_Mode")
     else:
-        switch_page("2_Therapist_Dashboard")
+        switch_page("pages/2_Therapist_Dashboard.py")
