@@ -11,6 +11,6 @@ mode = st.radio("Select", ["🧑‍🦱 Practice Mode", "🧑‍⚕️ Therapist
 
 if st.button("Continue"):
     if "Practice" in mode:
-        switch_page("1_Patient_Mode")
+        switch_page("Patient_Mode")
     else:
-        switch_page("2_Therapist_Dashboard")
+        switch_page("Therapist_Dashboard")
